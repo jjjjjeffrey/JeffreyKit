@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JeffreyKit_Example' do
+  pod 'JeffreyKit', :path => '../'
+
+  target 'JeffreyKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
