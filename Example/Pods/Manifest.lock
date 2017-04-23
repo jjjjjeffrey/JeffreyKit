@@ -1,0 +1,18 @@
+PODS:
+  - JeffreyKit (0.1.0):
+    - JeffreyKit/Notification (= 0.1.0)
+  - JeffreyKit/Notification (0.1.0)
+
+DEPENDENCIES:
+  - JeffreyKit (from `../`)
+
+EXTERNAL SOURCES:
+  JeffreyKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JeffreyKit: 41a8956df1b54acc2841c7598e52b77af4b5fd30
+
+PODFILE CHECKSUM: 9a2a40fcb890c793b3825db56340a1c272e1798e
+
+COCOAPODS: 1.2.1

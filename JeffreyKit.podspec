@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'JeffreyKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of JeffreyKit.'
+  s.summary          = 'A beautiful library for iOS Apps'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+This is a library that has many usefull class and function, it can help you to develop an iOS App more easily!
                        DESC
 
   s.homepage         = 'https://github.com/jjjjjeffrey/JeffreyKit'
@@ -39,4 +39,8 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  s.subspec 'Notification' do |notification|
+      notification.source_files   = 'Classes/Notification/**/*'
+  end
 end

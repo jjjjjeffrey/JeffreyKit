@@ -1,0 +1,28 @@
+{
+  "name": "JeffreyKit",
+  "version": "0.1.0",
+  "summary": "A short description of JeffreyKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jjjjjeffrey/JeffreyKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jjjjjeffrey": "jjjjjeffreyzeng@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/jjjjjeffrey/JeffreyKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JeffreyKit/Classes/**/*",
+  "subspecs": [
+    {
+      "name": "Notification",
+      "source_files": "Classes/Notification/**/*"
+    }
+  ]
+}
