@@ -41,6 +41,6 @@ This is a library that has many usefull class and function, it can help you to d
   # s.dependency 'AFNetworking', '~> 2.3'
   
   s.subspec 'Notification' do |notification|
-      notification.source_files   = 'Classes/Notification/*.{swift}'
+      notification.source_files   = 'JeffreyKit/Classes/Notification/*.{swift}'
   end
 end
