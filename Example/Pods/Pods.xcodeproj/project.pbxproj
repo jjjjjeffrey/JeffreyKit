@@ -17,7 +17,6 @@
 		865F11F6416D35D21E3F7E7162CF984F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		9432F08E9C0395030BDAFDB06F07F7BB /* JeffreyKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 722291CDB3C4E0500227EA074914BC6F /* JeffreyKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D50E7AC2E4C5261A4D454674B5354470 /* Pods-JeffreyKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C027E52D6F977C1D23473A48A1F13A /* Pods-JeffreyKit_Tests-dummy.m */; };
-		DE48D6A0BEFE05DB356E808315EEB2DD /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99E18A6D62AAF82302EF68DEEBC58C4 /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,12 +30,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00DD64986055F838C9F242DFCB87DD64 /* JeffreyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JeffreyKit.framework; path = JeffreyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		00DD64986055F838C9F242DFCB87DD64 /* JeffreyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JeffreyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C474829A199040673DEB19D16D9807A /* Pods-JeffreyKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JeffreyKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		0C5A8BE5279D07EB89FC5643CBF60271 /* JeffreyKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JeffreyKit.modulemap; sourceTree = "<group>"; };
+		0C5A8BE5279D07EB89FC5643CBF60271 /* JeffreyKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JeffreyKit.modulemap; sourceTree = "<group>"; };
 		0CF8EE617785444D9FFA939377B80D7F /* Pods-JeffreyKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JeffreyKit_Tests-resources.sh"; sourceTree = "<group>"; };
 		0E947B840B1B9F928A612464755AA5A7 /* Pods-JeffreyKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JeffreyKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		173CF82969417B1718807B96C2EA0E6C /* Pods-JeffreyKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JeffreyKit_Tests.modulemap"; sourceTree = "<group>"; };
+		173CF82969417B1718807B96C2EA0E6C /* Pods-JeffreyKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JeffreyKit_Tests.modulemap"; sourceTree = "<group>"; };
 		1B77AC61A791E1420412A87C443202B0 /* Pods-JeffreyKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JeffreyKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		2753B5FB91A20B239B52862420EC4EDE /* Pods-JeffreyKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JeffreyKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3731358F09F42DD6AB9E10C511FF9C6E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -52,17 +51,16 @@
 		851C5236953D61A0C666E9AAA8681ACF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88257B7BE71E33494117FF042A3850F6 /* Pods-JeffreyKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JeffreyKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		932BD1C72B717CF9EA69E5514BAB68E7 /* Pods-JeffreyKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JeffreyKit_Example-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		ACB29359A93B2B3008726560A0279C26 /* Pods-JeffreyKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JeffreyKit_Example.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ACB29359A93B2B3008726560A0279C26 /* Pods-JeffreyKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JeffreyKit_Example.modulemap"; sourceTree = "<group>"; };
 		B5680DA0E92A43126949105F909041A7 /* Pods-JeffreyKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JeffreyKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B5B7C8F4880E90C9C4871481E9899175 /* JeffreyKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JeffreyKit-prefix.pch"; sourceTree = "<group>"; };
 		B98FB4FBA75784F84FF3DCDD98D9A834 /* Pods-JeffreyKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JeffreyKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B99E18A6D62AAF82302EF68DEEBC58C4 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
-		C815FF3916414150C3896C37A94F9952 /* Pods_JeffreyKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JeffreyKit_Example.framework; path = "Pods-JeffreyKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C815FF3916414150C3896C37A94F9952 /* Pods_JeffreyKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JeffreyKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C828C87F621E23EB8D0DF52298F369A8 /* JeffreyKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JeffreyKit-dummy.m"; sourceTree = "<group>"; };
 		C8685DAD8FF0B4E43A62A355658FF43B /* JeffreyKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JeffreyKit.xcconfig; sourceTree = "<group>"; };
 		CD4A32BBD1D15C138F5648D3D8FD6B95 /* Pods-JeffreyKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JeffreyKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		DA241C6F8E38C33261FABCB98DD46E83 /* Pods_JeffreyKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JeffreyKit_Tests.framework; path = "Pods-JeffreyKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA241C6F8E38C33261FABCB98DD46E83 /* Pods_JeffreyKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JeffreyKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F05029322959B3DB1112027B07C18869 /* Pods-JeffreyKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JeffreyKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,10 +113,8 @@
 		355CFDE767EC89ADE88439356B787B63 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				B99E18A6D62AAF82302EF68DEEBC58C4 /* ReplaceMe.swift */,
 				81462E7881A74B72DCA4A2EB96ABE5C5 /* Notification */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -162,7 +158,6 @@
 			children = (
 				53ED446CF363EB32F37CDB9B8E755577 /* NotificationProtocol.swift */,
 			);
-			name = Notification;
 			path = Notification;
 			sourceTree = "<group>";
 		};
@@ -189,7 +184,6 @@
 			children = (
 				355CFDE767EC89ADE88439356B787B63 /* Classes */,
 			);
-			name = JeffreyKit;
 			path = JeffreyKit;
 			sourceTree = "<group>";
 		};
@@ -361,7 +355,6 @@
 			files = (
 				205A0ADA67A7F5F87AB42F97EC716721 /* JeffreyKit-dummy.m in Sources */,
 				30129418ACE065F6E2C7EC76C4880F70 /* NotificationProtocol.swift in Sources */,
-				DE48D6A0BEFE05DB356E808315EEB2DD /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
