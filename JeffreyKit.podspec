@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JeffreyKit'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A beautiful library for iOS Apps'
 
 # This description is used to generate tags and improve search results.
@@ -41,6 +41,6 @@ This is a library that has many usefull class and function, it can help you to d
   # s.dependency 'AFNetworking', '~> 2.3'
   
   s.subspec 'Notification' do |notification|
-      notification.source_files   = 'Classes/Notification/*.{swift}'
+      notification.source_files   = 'JeffreyKit/Classes/Notification/*.{swift}'
   end
 end
