@@ -1,6 +1,10 @@
 use_frameworks!
 
+ platform :ios, '9.0'
+
 target 'JeffreyKit_Example' do
+  pod 'Alamofire', '~> 4.0'
+  pod 'HandyJSON', '~> 1.0'
   pod 'JeffreyKit', :path => '../'
 
   target 'JeffreyKit_Tests' do

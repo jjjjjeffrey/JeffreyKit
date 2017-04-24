@@ -2,7 +2,7 @@ import UIKit
 import XCTest
 import JeffreyKit
 
-class Tests: XCTestCase {
+class NotificationTests: XCTestCase {
     
     typealias NotificationCenter = JeffreyKit.NotificationCenter
     
