@@ -1,8 +1,8 @@
 {
   "name": "JeffreyKit",
-  "version": "0.1.0",
-  "summary": "A short description of JeffreyKit.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.2.0",
+  "summary": "A beautiful library for iOS Apps",
+  "description": "This is a library that has many usefull class and function, it can help you to develop an iOS App more easily!",
   "homepage": "https://github.com/jjjjjeffrey/JeffreyKit",
   "license": {
     "type": "MIT",
@@ -13,16 +13,19 @@
   },
   "source": {
     "git": "https://github.com/jjjjjeffrey/JeffreyKit.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "JeffreyKit/Classes/**/*",
   "subspecs": [
     {
-      "name": "Notification",
-      "source_files": "Classes/Notification/**/*"
+      "name": "NotificationKit",
+      "source_files": "NotificationKit/*.{swift}"
+    },
+    {
+      "name": "HTTPKit",
+      "source_files": "HTTPKit/*.{swift}"
     }
   ]
 }

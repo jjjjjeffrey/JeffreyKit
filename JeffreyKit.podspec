@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JeffreyKit'
-  s.version          = '0.1.1'
+  s.version          = '0.2.0'
   s.summary          = 'A beautiful library for iOS Apps'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ This is a library that has many usefull class and function, it can help you to d
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'JeffreyKit/Classes/**/*'
+#s.source_files = 'JeffreyKit/**/*'
   
   # s.resource_bundles = {
   #   'JeffreyKit' => ['JeffreyKit/Assets/*.png']
@@ -40,7 +40,12 @@ This is a library that has many usefull class and function, it can help you to d
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   
-  s.subspec 'Notification' do |notification|
-      notification.source_files   = 'JeffreyKit/Classes/Notification/*.{swift}'
+  s.subspec 'NotificationKit' do |notification|
+      notification.source_files   = 'NotificationKit/*.{swift}'
   end
+  
+  s.subspec 'HTTPKit' do |http|
+      http.source_files   = 'HTTPKit/*.{swift}'
+  end
+  
 end
