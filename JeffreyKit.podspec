@@ -48,4 +48,8 @@ This is a library that has many usefull class and function, it can help you to d
       http.source_files   = 'HTTPKit/*.{swift}'
   end
   
+  s.subspec 'TableView' do |tableview|
+      tableview.source_files   = 'TableView/*.{swift}'
+  end
+  
 end

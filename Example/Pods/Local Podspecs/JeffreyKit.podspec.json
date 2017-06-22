@@ -26,6 +26,10 @@
     {
       "name": "HTTPKit",
       "source_files": "HTTPKit/*.{swift}"
+    },
+    {
+      "name": "TableView",
+      "source_files": "TableView/*.{swift}"
     }
   ]
 }
