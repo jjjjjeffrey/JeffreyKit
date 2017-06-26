@@ -1,13 +1,13 @@
 PODS:
   - Alamofire (4.4.0)
   - HandyJSON (1.7.1)
-  - JeffreyKit (0.2.0):
-    - JeffreyKit/HTTPKit (= 0.2.0)
-    - JeffreyKit/NotificationKit (= 0.2.0)
-    - JeffreyKit/TableView (= 0.2.0)
-  - JeffreyKit/HTTPKit (0.2.0)
-  - JeffreyKit/NotificationKit (0.2.0)
-  - JeffreyKit/TableView (0.2.0)
+  - JeffreyKit (0.3.0):
+    - JeffreyKit/HTTPKit (= 0.3.0)
+    - JeffreyKit/NotificationKit (= 0.3.0)
+    - JeffreyKit/TableView (= 0.3.0)
+  - JeffreyKit/HTTPKit (0.3.0)
+  - JeffreyKit/NotificationKit (0.3.0)
+  - JeffreyKit/TableView (0.3.0)
 
 DEPENDENCIES:
   - Alamofire (~> 4.0)
@@ -21,7 +21,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
   HandyJSON: 54b6ce942795f7b2e61b82fe73cf25d9f139d125
-  JeffreyKit: dd7eaed51ffb74ab0203649b1a34b311a1fe0d69
+  JeffreyKit: fa72a43474143a6927c0a81f7dd1c35fe5247537
 
 PODFILE CHECKSUM: 977f897d89f8601ce543cbd0b9501b310049d83d
 
