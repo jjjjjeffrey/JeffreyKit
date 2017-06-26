@@ -1,6 +1,6 @@
 {
   "name": "JeffreyKit",
-  "version": "0.3.0",
+  "version": "0.3.2",
   "summary": "A beautiful library for iOS Apps",
   "description": "This is a library that has many usefull class and function, it can help you to develop an iOS App more easily!",
   "homepage": "https://github.com/jjjjjeffrey/JeffreyKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/jjjjjeffrey/JeffreyKit.git",
-    "tag": "0.3.0"
+    "tag": "0.3.2"
   },
   "platforms": {
     "ios": "8.0"
