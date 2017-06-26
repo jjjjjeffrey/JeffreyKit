@@ -8,11 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JeffreyKit'
-<<<<<<< HEAD
-  s.version          = '0.2.0'
-=======
-  s.version          = '0.3.0'
->>>>>>> dev
+
+  s.version          = '0.3.1'
+
   s.summary          = 'A beautiful library for iOS Apps'
 
 # This description is used to generate tags and improve search results.
@@ -52,11 +50,8 @@ This is a library that has many usefull class and function, it can help you to d
       http.source_files   = 'HTTPKit/*.{swift}'
   end
   
-<<<<<<< HEAD
-=======
   s.subspec 'TableView' do |tableview|
       tableview.source_files   = 'TableView/*.{swift}'
   end
   
->>>>>>> dev
 end
