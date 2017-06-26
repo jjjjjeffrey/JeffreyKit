@@ -1,6 +1,10 @@
 {
   "name": "JeffreyKit",
+<<<<<<< HEAD
   "version": "0.2.0",
+=======
+  "version": "0.3.0",
+>>>>>>> dev
   "summary": "A beautiful library for iOS Apps",
   "description": "This is a library that has many usefull class and function, it can help you to develop an iOS App more easily!",
   "homepage": "https://github.com/jjjjjeffrey/JeffreyKit",
@@ -13,7 +17,11 @@
   },
   "source": {
     "git": "https://github.com/jjjjjeffrey/JeffreyKit.git",
+<<<<<<< HEAD
     "tag": "0.2.0"
+=======
+    "tag": "0.3.0"
+>>>>>>> dev
   },
   "platforms": {
     "ios": "9.0"
@@ -26,6 +34,13 @@
     {
       "name": "HTTPKit",
       "source_files": "HTTPKit/*.{swift}"
+<<<<<<< HEAD
+=======
+    },
+    {
+      "name": "TableView",
+      "source_files": "TableView/*.{swift}"
+>>>>>>> dev
     }
   ]
 }
