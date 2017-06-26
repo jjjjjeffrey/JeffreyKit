@@ -45,10 +45,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* NotificationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTests.swift; sourceTree = "<group>"; };
 		76003C92EB837FF0EDA8EEED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-<<<<<<< HEAD
-=======
 		7B9BEC8B1EC95C20006367DA /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
->>>>>>> dev
 		7BCDCEB21EAD961F005A8D07 /* HTTPRequestTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPRequestTests.swift; sourceTree = "<group>"; };
 		9964FC1A0366D499DE615525 /* Pods-JeffreyKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JeffreyKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JeffreyKit_Example/Pods-JeffreyKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C83BC5ED1A03BF92A5018133 /* Pods-JeffreyKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JeffreyKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JeffreyKit_Tests/Pods-JeffreyKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
