@@ -97,6 +97,10 @@ public struct TableViewSection: TableViewSectionCompatible {
     public var headerTitle: String?
     public var footerTitle: String?
     
+    public init(rows: [TableViewCompatible]) {
+        self.rows = rows
+    }
+    
 }
 
 public class TableViewDataSource: NSObject, TableViewDataSourceCompatible {
