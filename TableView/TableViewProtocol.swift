@@ -90,8 +90,6 @@ public extension TableViewSectionCompatible {
     }
 }
 
-<<<<<<< HEAD
-=======
 public struct TableViewSection: TableViewSectionCompatible {
     
     public var sortOrder: Int = 0
@@ -101,7 +99,6 @@ public struct TableViewSection: TableViewSectionCompatible {
     
 }
 
->>>>>>> dev
 public class TableViewDataSource: NSObject, TableViewDataSourceCompatible {
     
     

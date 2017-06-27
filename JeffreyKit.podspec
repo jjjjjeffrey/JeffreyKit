@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JeffreyKit'
-  s.version          = '0.4.0'
+  s.version          = '0.4.1'
   s.summary          = 'A beautiful library for iOS Apps'
 
 # This description is used to generate tags and improve search results.
