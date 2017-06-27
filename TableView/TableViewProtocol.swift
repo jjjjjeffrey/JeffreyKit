@@ -90,6 +90,15 @@ public extension TableViewSectionCompatible {
     }
 }
 
+public struct TableViewSection: TableViewSectionCompatible {
+    
+    public var sortOrder: Int = 0
+    public var rows: [TableViewCompatible]
+    public var headerTitle: String?
+    public var footerTitle: String?
+    
+}
+
 public class TableViewDataSource: NSObject, TableViewDataSourceCompatible {
     
     
